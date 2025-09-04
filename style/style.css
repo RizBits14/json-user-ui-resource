@@ -27,10 +27,11 @@ main {
 }
 
 .cards{
+    background-color: white;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px gray;
+    box-shadow: 10px 10px 10px gray;
     height: 100%;
 }
 .cards p{

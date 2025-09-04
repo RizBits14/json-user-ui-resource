@@ -28,7 +28,7 @@ const displayPost = (posts) => {
         const card = document.createElement('div');
         card.innerHTML = `
             <div class="cards">
-                <h1>The name of the user is: ${name}</h1>
+                <h1 class='font-bold'>The name of the user is: ${name}</h1>
                 <h2>User also goes by the username: ${username}</h2>
                 <p>The email address is: ${email}</p>
                 <ul>
