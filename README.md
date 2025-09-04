@@ -1,2 +1,2 @@
 # json-user-ui-resource
-Displaying the users in different cards by the click of a button using json
+A simple web page that fetches user data from a JSON API and displays it in card format. Built with HTML, CSS, Tailwind, and JavaScript.
