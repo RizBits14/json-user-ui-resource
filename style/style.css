@@ -1,0 +1,14 @@
+body{
+    background-color: steelblue;
+    margin: 0 atuo;
+}
+
+.navbar-heading{
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    padding: 1rem;
+    background-color: palegreen;
+    font-size: 4rem;
+    font-family: cursive;
+}
