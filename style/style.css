@@ -3,6 +3,10 @@ body{
     margin: 0 atuo;
 }
 
+main {
+    padding: 50px 20px;
+}
+
 .navbar-heading{
     display: flex;
     align-items: center;
@@ -11,4 +15,24 @@ body{
     background-color: palegreen;
     font-size: 4rem;
     font-family: cursive;
+}
+
+#card-container{
+    max-width: 1160px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    row-gap: 30px;
+}
+
+.cards{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+    height: 100%;
+}
+.cards p{
+    text-align: justify;
 }
