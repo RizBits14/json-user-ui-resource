@@ -11,14 +11,17 @@
 </head>
 
 <body>
-    <nav class="m-7 rounded-full bg-green-800 p-3">
+    <nav class="m-18 rounded-full bg-green-800 p-3 hover:-translate-y-5 transition-transform duration-300 ease-in-out">
         <h1 class="navbar-heading items-center flex justify-center font-bold">Displaying The Users Only</h1>
     </nav>
-    <div class="flex justify-center">
+    <div class="flex justify-center gap-6">
         <button onclick="loadPost()" id="button" class="cursor-pointer border-2 rounded-full bg-[#98fb98] p-8 flex justify-center items-center 
     hover:bg-fuchsia-200 hover:translate-y-4 transition-transform duration-300 ease-in-out font-bold">
             Click Here to See the Users
         </button>
+        <a class="cursor-pointer border-2 rounded-full bg-[#98fb98] p-8 flex justify-center items-center 
+    hover:bg-fuchsia-200 hover:translate-y-4 transition-transform duration-300 ease-in-out font-bold text-center"
+            href="https://jsonplaceholder.typicode.com/users" target="_blank">Click Here to see the JSON Placeholder <br>Use the JSON Viewer Pro Ext.</a>
     </div>
     <main>
         <div id="card-container">
