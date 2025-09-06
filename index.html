@@ -15,18 +15,26 @@
         <h1 class="navbar-heading items-center flex justify-center font-bold">Displaying The Users Only</h1>
     </nav>
     <div class="flex justify-center gap-6">
-        <button onclick="loadPost()" id="button" class="cursor-pointer border-2 rounded-full bg-[#98fb98] p-8 flex justify-center items-center 
-    hover:bg-fuchsia-200 hover:translate-y-4 transition-transform duration-300 ease-in-out font-bold">
+        <button onclick="loadPost()" id="button" class="cursor-pointer border-2 rounded-full bg-[#98fb98] m-15 p-6 flex justify-center items-center 
+    hover:bg-green-200 font-bold animate-bounce">
             Click Here to See the Users
         </button>
-        <a class="cursor-pointer border-2 rounded-full bg-[#98fb98] p-8 flex justify-center items-center 
-    hover:bg-fuchsia-200 hover:translate-y-4 transition-transform duration-300 ease-in-out font-bold text-center"
-            href="https://jsonplaceholder.typicode.com/users" target="_blank">Click Here to see the JSON Placeholder <br>Use the JSON Viewer Pro Ext.</a>
+        <div class="flex flex-col gap-4">
+            <a class="cursor-pointer border-2 rounded-full bg-[#98fb98] p-8 flex justify-center items-center 
+    hover:bg-green-200 hover:translate-x-15 transition-transform duration-300 ease-in-out font-bold text-center"
+                href="https://jsonplaceholder.typicode.com/users" target="_blank">
+                Click Here to see the JSON Placeholder
+            </a>
+
+            <a class="cursor-pointer border-2 rounded-full bg-[#98fb98] p-8 flex justify-center items-center 
+    hover:bg-green-200 hover:-translate-x-15 transition-transform duration-300 ease-in-out font-bold text-center"
+                href="https://chromewebstore.google.com/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc" target="_blank">
+                Use the JSON Viewer Pro Ext.
+            </a>
+        </div>
     </div>
     <main>
-        <div id="card-container">
-
-        </div>
+        <div id="card-container"></div>
     </main>
 
     <script src="index.js"></script>
