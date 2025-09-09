@@ -1,32 +1,27 @@
-body{
+body {
     background-color: darkslategrey;
-    margin: 0 atuo;
+    margin: 0 auto;
 }
 
 main {
-    padding: 50px 20px;
+    padding: 20px;
 }
 
-.navbar-heading{
+.navbar-heading {
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 9999px;
     padding: 1rem;
     background-color: palegreen;
-    font-size: 4rem;
     font-family: cursive;
 }
 
-#card-container{
-    max-width: 1160px;
-    margin: 50px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    row-gap: 30px;
+#card-container {
+    margin: 20px auto;
 }
 
-.cards{
+.cards {
     background-color: white;
     border: 1px solid #ddd;
     padding: 10px;
